@@ -1,0 +1,129 @@
+.main {
+    width: 100%;
+    min-height: 35rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("./bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.home h1,
+.home .h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.navbar-brand{
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight:bold;
+}
+
+.home h2,
+.home .h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+
+    .home h1,
+    .home .h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .home {
+      height: 100vh;
+      padding: 0;
+    }
+  
+    .home h1,
+    .home .h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+  
+    .home h2,
+    .home .h2 {
+      max-width: 30rem;
+      font-size: 1.25rem;
+    }
+  }
+
+
+  
+  .projects-section .featured-text {
+    padding: 2rem;
+  }
+
+
+  
+  @media (min-width: 992px) {
+    .projects-section .featured-text {
+      padding: 0 0 0 2rem;
+      border-left: 0.5rem solid #4cb1bf;
+    }
+  }
+  
+  .projects-section .featured-text-right {
+    padding: 2rem;
+  }
+  
+  @media (min-width: 992px) {
+    .projects-section .featured-text-right {
+      padding: 0 0 0 2rem;
+      border-right: 0.5rem solid #4cb1bf;
+    }
+  }
+  
+  .projects-section .project-text {
+    padding: 3rem;
+    font-size: 90%;
+  }
+  
+  @media (min-width: 992px) {
+    .projects-section .project-text {
+      padding: 5rem;
+    }
+  }
+  #loginWindow {
+    background-color: white;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+.contact-section {
+  padding-top: 5rem;
+}
+
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #4cb1bf;
+}
+
+.contact-section .card h4,
+.contact-section .card .h4 {
+  font-size: 0.8rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.contact-section .card hr {
+  opacity: 1;
+  border-color: #4cb1bf;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
