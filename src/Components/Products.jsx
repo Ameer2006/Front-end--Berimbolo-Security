@@ -21,7 +21,7 @@ export default function Products() {
                                 <div class="card-body">
                                     <h3 class="card-title text-primary">Basic security package</h3>
                                     <p class="card-text">1 x alarm system <br/>1 x CCTV camera <br/> Local CCTV footage storage<br/>NOT centrally monitored </p>
-                                    <button class="btn btn-primary">Bay Naw</button>
+                                    <button class="btn btn-primary">Buy Naw</button>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ export default function Products() {
                                 <div class="card-body">
                                     <h3 class="card-title text-primary">Standard security package: </h3>
                                     <p class="card-text">1 x alarm system <br/>2 x CCTV camera <br/>Online and local CCTV footage storage <br/>NOT centrally monitored </p>
-                                    <button class="btn btn-primary">Bay Naw</button>
+                                    <button class="btn btn-primary">Buy Naw</button>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ export default function Products() {
                                 <div class="card-body">
                                     <h3 class="card-title text-primary">Deluxe security package  </h3>
                                     <p class="card-text">1 x alarm system <br/>4 x CCTV camera <br/>Online and local CCTV footage storage <br/>o Centrally monitored  </p>
-                                    <button class="btn btn-primary">Bay Naw</button>
+                                    <button class="btn btn-primary">Buy Naw</button>
                                 </div>
                             </div>
                         </div>
